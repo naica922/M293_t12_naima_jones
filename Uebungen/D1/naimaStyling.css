@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.top-five {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: left;
+    list-style-type: decimal-leading-zero;
+}

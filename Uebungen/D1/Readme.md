@@ -6,7 +6,11 @@
 
 ### Übung 1 - Top Five
 
-Erstellen Sie in HTML eine Rangliste der **fünf besten** Songs, Filme, Games, Sportler oder ähnliches. Fügen Sie eine Überschrift hinzu. Erstellen Sie ein externes CSS-Dokument und binden Sie dieses ein. Formatieren Sie ihre Top 5 mit dem Google Font "Open Sans Extra-bold 800" und die Schriftgrössen so, dass man Ihre Rangliste auch aus Distanz gut lesen kann.
+Erstellen Sie in HTML eine Rangliste der **fünf besten** Songs, Filme, Games, Sportler oder ähnliches. Fügen Sie eine Überschrift hinzu.
+
+Erstellen Sie ein externes CSS-Dokument und binden Sie dieses ein. 
+
+Formatieren Sie ihre Top 5 mit dem Google Font "Open Sans Extra-bold 800" und die Schriftgrössen so, dass man Ihre Rangliste auch aus Distanz gut lesen kann.
 
 Erklären Sie welche Typografieregel Sie angewendet haben.
 
