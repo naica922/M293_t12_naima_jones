@@ -1,30 +1,107 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
-.navbar {
-    overflow: hidden;
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('mercedes.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+}
+
+.headline {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 5em;
+}
+
+.subheadline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
 }
 
 .navbar ul {
-    margin: 0;
-    padding: 0;
     list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+    padding: 0;
 }
 
-.navbar li {
-    float: left;
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.navbar a {
-    display: block;
+.navbar ul li a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
-.navbar a:hover {
-    background-color: #ffffff;
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+header .header-text {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+header .header-text h6 {
+    margin: 0;
+    padding: 0;
+}
+
+header .buttons {
+    display: flex;
+    align-items: center;
+}
+
+header .buttons button,
+header .buttons input {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+header .buttons input {
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #000;
+    background-color: #fff;
+}
+
+header .logo {
+    width: 50px;
+    height: auto;
 }
